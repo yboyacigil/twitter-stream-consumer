@@ -1,0 +1,7 @@
+app:
+  queue-size: 10000
+
+  kafka:
+    topic: test
+    broker-list: localhost:9092
+    client-id: xxx
