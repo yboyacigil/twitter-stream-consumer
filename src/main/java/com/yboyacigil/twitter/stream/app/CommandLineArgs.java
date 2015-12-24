@@ -59,7 +59,7 @@ public class CommandLineArgs {
         this.producerType = producerType;
     }
 
-    public static enum ProducerType {
+    public enum ProducerType {
         STDOUT, KAFKA
     }
 }
