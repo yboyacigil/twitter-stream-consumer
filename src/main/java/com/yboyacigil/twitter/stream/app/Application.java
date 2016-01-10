@@ -58,7 +58,7 @@ public class Application {
     private String rejectIfInvalid(Environment env, String property) {
         String s = env.getProperty(property);
         if (StringUtils.isEmpty(s)) {
-            throw new IllegalArgumentException("No command line arg: '" + property + "'");
+            throw new IllegalArgumentException("Empty value for command line argument: '" + property + "'");
         }
         return s;
     }
